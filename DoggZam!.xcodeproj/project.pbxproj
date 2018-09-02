@@ -15,6 +15,7 @@
 		DAA92C5720E9BA2A00F6BFDA /* DoggZamVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA92C5620E9BA2A00F6BFDA /* DoggZamVC.swift */; };
 		DAA92C5D20E9BA9200F6BFDA /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA92C5C20E9BA9200F6BFDA /* GradientView.swift */; };
 		DAA92C6020E9D02500F6BFDA /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DAA92C5F20E9D02500F6BFDA /* Inceptionv3.mlmodel */; };
+		DABA17AC213B595B0092CDA7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DABA17AB213B595B0092CDA7 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		DAA92C5620E9BA2A00F6BFDA /* DoggZamVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoggZamVC.swift; sourceTree = "<group>"; };
 		DAA92C5C20E9BA9200F6BFDA /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		DAA92C5F20E9D02500F6BFDA /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Inceptionv3.mlmodel; path = ../../../../Downloads/Inceptionv3.mlmodel; sourceTree = "<group>"; };
+		DABA17AB213B595B0092CDA7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				DAA92C4520E9B91300F6BFDA /* Assets.xcassets */,
 				DAA92C4720E9B91300F6BFDA /* LaunchScreen.storyboard */,
 				DAA92C4A20E9B91300F6BFDA /* Info.plist */,
+				DABA17AB213B595B0092CDA7 /* GoogleService-Info.plist */,
 			);
 			path = "DoggZam!";
 			sourceTree = "<group>";
@@ -156,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAA92C4920E9B91300F6BFDA /* LaunchScreen.storyboard in Resources */,
+				DABA17AC213B595B0092CDA7 /* GoogleService-Info.plist in Resources */,
 				DAA92C4620E9B91300F6BFDA /* Assets.xcassets in Resources */,
 				DAA92C4420E9B91100F6BFDA /* Main.storyboard in Resources */,
 			);
