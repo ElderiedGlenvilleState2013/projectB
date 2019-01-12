@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		A8CB1F2C95CF0B38C62A90B3 /* Pods_DoggZam_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60ACE19E94563323A8081462 /* Pods_DoggZam_.framework */; };
+		DA5D2DA221EA8235003B2EB3 /* ContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5D2DA121EA8235003B2EB3 /* ContainerVC.swift */; };
+		DA5D2DA621EA82A8003B2EB3 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5D2DA521EA82A8003B2EB3 /* HomeVC.swift */; };
 		DAA92C3F20E9B91100F6BFDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA92C3E20E9B91100F6BFDA /* AppDelegate.swift */; };
 		DAA92C4420E9B91100F6BFDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAA92C4220E9B91100F6BFDA /* Main.storyboard */; };
 		DAA92C4620E9B91300F6BFDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAA92C4520E9B91300F6BFDA /* Assets.xcassets */; };
@@ -23,6 +25,8 @@
 		19C23D31D5D85330BB201E5E /* Pods-DoggZam!.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoggZam!.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DoggZam!/Pods-DoggZam!.debug.xcconfig"; sourceTree = "<group>"; };
 		60ACE19E94563323A8081462 /* Pods_DoggZam_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DoggZam_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3E839514EE0455E3C32B16C /* Pods-DoggZam!.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoggZam!.release.xcconfig"; path = "Pods/Target Support Files/Pods-DoggZam!/Pods-DoggZam!.release.xcconfig"; sourceTree = "<group>"; };
+		DA5D2DA121EA8235003B2EB3 /* ContainerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerVC.swift; sourceTree = "<group>"; };
+		DA5D2DA521EA82A8003B2EB3 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		DAA92C3B20E9B91100F6BFDA /* DoggZam!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DoggZam!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAA92C3E20E9B91100F6BFDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAA92C4320E9B91100F6BFDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -112,6 +116,8 @@
 			children = (
 				DAA92C5420E9B9F200F6BFDA /* IntroVC.swift */,
 				DAA92C5620E9BA2A00F6BFDA /* DoggZamVC.swift */,
+				DA5D2DA121EA8235003B2EB3 /* ContainerVC.swift */,
+				DA5D2DA521EA82A8003B2EB3 /* HomeVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -245,6 +251,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA5D2DA221EA8235003B2EB3 /* ContainerVC.swift in Sources */,
+				DA5D2DA621EA82A8003B2EB3 /* HomeVC.swift in Sources */,
 				DAA92C6020E9D02500F6BFDA /* Inceptionv3.mlmodel in Sources */,
 				DAA92C5720E9BA2A00F6BFDA /* DoggZamVC.swift in Sources */,
 				DAA92C5D20E9BA9200F6BFDA /* GradientView.swift in Sources */,
@@ -397,7 +405,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N762D69GAN;
 				INFOPLIST_FILE = "DoggZam!/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "ElderiedMcKinney.DoggZam-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -413,7 +424,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N762D69GAN;
 				INFOPLIST_FILE = "DoggZam!/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "ElderiedMcKinney.DoggZam-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
